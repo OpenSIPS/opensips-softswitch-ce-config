@@ -3,6 +3,9 @@ name: Build OpenSIPS SoftSwitch CE Image
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - .debian.packages
 
 jobs:
 
