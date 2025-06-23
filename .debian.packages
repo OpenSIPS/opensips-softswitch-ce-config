@@ -4,5 +4,5 @@ opensips-mysql-module
 opensips-auth-modules
 opensips-http-modules
 opensips-tls-module
-opensips-dialplan-module
 opensips-presence-modules
+opensips-dialplan-module
