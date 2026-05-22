@@ -30,4 +30,4 @@ jobs:
         modules: ${{ steps.fetch_packages.outputs.MODULES }}
         docker-username: ${{ secrets.DOCKER_USERNAME }}
         docker-token: ${{ secrets.DOCKER_TOKEN }}
-
+        ghcr-token: ${{ secrets.GITHUB_TOKEN }}
