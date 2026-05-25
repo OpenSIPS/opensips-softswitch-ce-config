@@ -31,4 +31,4 @@ jobs:
         docker-username: ${{ secrets.DOCKER_USERNAME }}
         docker-token: ${{ secrets.DOCKER_TOKEN }}
         ghcr-token: ${{ secrets.GITHUB_TOKEN }}
-        ghcr-repo: ${{ github.repository }}
+        ghcr-repo: ${{ github.event.repository.name }}
